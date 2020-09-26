@@ -16,3 +16,9 @@ class Game:
             return player1.name + 'wins
         elif player1.choice == 'rock' and player2.choice == 'paper':
             return player2.name + 'wins'
+        elif player1.choice == 'rock' and player2.choice == 'rock':
+            return "Draw!"
+        elif player1.choice == 'paper' and player2.choice == 'paper':
+            return "Draw!"
+        elif player1.choice == 'scissors' and player2.choice == 'scissors':
+            return "Draw!"

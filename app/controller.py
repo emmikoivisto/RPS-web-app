@@ -1,7 +1,7 @@
 from app import app
 from flask import render_template
-# from app.models.player import *
-# from app.models.game import *
+from app.models.player import *
+from app.models.game import *
 
 
 
